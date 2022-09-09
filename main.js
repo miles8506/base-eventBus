@@ -45,9 +45,9 @@ const foo = function (a1, a2) {
   console.log(a1, a2);
   console.log(this);
 }
-eventBus.on('click1', foo) // 註冊
+eventBus.on('click1', foo) // register
 
-eventBus.emit('click1', 'haha', 'qqq') // 調用
+eventBus.emit('click1', 'haha', 'qqq') // call
 
-eventBus.off('click1', foo) // 刪除
+eventBus.off('click1', foo) // del
 
